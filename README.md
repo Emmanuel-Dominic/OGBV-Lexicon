@@ -1,4 +1,4 @@
-# OGBV Lexicons and Data Storage
+# OGBV-Lexicon
 
 For this project, **OGBV Lexicons** a collection of words and phrases associated with online gender-based violence (OGBV) are gathered and stored to create a dataset. These lexicons play a critical role in detecting and analyzing OGBV-related content. In my implementation, I've chosen to store these terms in a database, as illustrated in the schema screenshot below. Each article, comment, or chatbot message is evaluated and assigned a boolean value (`ogbv_flag`) based on whether it is related to OGBV. This is reflected in the schema by the `ogbv_flag` field, which indicates the status of the content.
 
